@@ -1,129 +1,78 @@
-📱 ProfileX – React Native App
+# 📱 ProfileX – React Native App (Expo + Clerk Auth)
 
-A modern mobile application built with Expo (React Native) featuring:
+ProfileX is a modern **React Native mobile application** built using **Expo** and **Clerk Authentication**.  
+It demonstrates **secure authentication**, **OAuth login**, and **multi-screen navigation**, making it ideal for **learning, academic submissions, and portfolio projects**.
 
-Email & Password Authentication
+---
 
-Google OAuth Authentication
+## ✨ Features
 
-Custom UI Screens (Login, Signup, Profile, Dashboard)
+- 🔐 Email & Password Authentication (Clerk)
+- 🔑 Google Sign-In (OAuth)
+- 🧭 Custom Login & Signup Screens
+- 🏠 Dashboard with Background Image
+- 👤 Profile Screen with User Details
+- 🚨 Custom Alert Component
+- 🔒 Secure Environment Variable Handling
+- 📦 Android APK Build Support (EAS)
 
-Clerk Authentication
+---
 
-Clean, minimal design
+## 🛠 Tech Stack
 
-🛠️ Tech Stack
+- **React Native**
+- **Expo**
+- **Clerk Authentication**
+- **React Navigation / Expo Router**
+- **JavaScript**
+- **EAS Build**
 
-React Native (Expo)
+---
 
-JavaScript
+## 📦 Prerequisites
 
-Clerk Authentication
+Make sure you have the following installed:
 
-Expo Router / React Navigation
+- **Node.js** `>= 18.x`
+- **npm**
+- **Git**
+- (Optional) Android Emulator or Android Phone
 
-Google OAuth
+---
 
-🚀 How to Run This App (No Expo Go Required)
+## 🚀 Getting Started (Run Locally)
 
-Your teacher does NOT need to install the Expo Go app.
-They can run it using an Android Emulator or build an APK.
+### 1️⃣ Clone the Repository
 
-✅ OPTION 1: Run on Android Emulator (Recommended)
-🔧 Prerequisites
+```bash
+git clone https://github.com/Rodopollunagaraju/React_Native_clerk_auth.git
+cd 
+```
 
-Install the following:
-
-Node.js (v18 or above)
-
-Android Studio
-
-Install Android Emulator
-
-Create a Virtual Device
-
-▶️ Steps
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+### 2️⃣ Install Dependencies
+```bash
 npm install
+```
 
-Create .env file in root directory
+### 3️⃣ Environment Variables (IMPORTANT)
+
+This project uses Clerk Authentication, which requires a publishable key.
+
+Create a .env file in the root directory:
+
+```bash
 EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
+```
 
+⚠️ Do NOT commit .env to GitHub
+Instead, this repository includes .env for reference.
 
-⚠️ The .env file is required for authentication to work.
-
-Start the app
+### 4️⃣ Run the App (Development)
+```bash
 npx expo start
+```
 
-
-Then press:
-
-a
-
-
-➡️ App will open automatically in the Android Emulator.
-
-✅ OPTION 2: Build & Install APK (No Emulator Needed)
-
-This option lets your teacher install the app like a normal Android app.
-
-Build APK
-npx expo build:android
-
-
-Choose:
-
-APK
-
-
-Expo will generate a download link.
-
-Install
-
-Download APK
-
-Enable Install from unknown sources
-
-Install & run
-
-✅ No Expo Go
-✅ No Emulator
-✅ Works offline
-
-📂 Environment Variables
-
-Create a .env file:
-
-EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=
-
-
-A sample file is provided as:
-
-.env.example
-
-📸 Screens Implemented
-
-Start Screen
-
-Login Screen
-
-Signup Screen
-
-Google Sign-In
-
-Home Dashboard
-
-Profile Screen
-
-Custom Alerts
-
-🔐 Authentication Flow
-
-Clerk handles all authentication securely
-
-No passwords stored locally
-
-Google OAuth supported
-
-Session-based login
+- **Then you can:**
+- **Open the browser link**
+- **Run on Android Emulator**
+- **OR scan the QR code using Expo Go**
