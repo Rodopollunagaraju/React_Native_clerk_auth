@@ -79,15 +79,15 @@ npx expo start
 
 ---
 ### Screens
-**starting screen**
+- **starting screen**
 ![WhatsApp Image 2026-01-03 at 10 33 29 AM](https://github.com/user-attachments/assets/0b2de053-812e-4262-b552-c4fe8722a737)
-**signup screen**
+- **signup screen**
 ![WhatsApp Image 2026-01-03 at 10 33 29 AM (1)](https://github.com/user-attachments/assets/46eb6bd4-08b4-42a5-a045-1bc2c8157ce8)
-**signin screen**
+- **signin screen**
 ![WhatsApp Image 2026-01-03 at 10 33 30 AM](https://github.com/user-attachments/assets/7c81a2e2-e4e7-4c9f-9539-2d135e644635)
-**Home screen**
+- **Home screen**
 ![WhatsApp Image 2026-01-03 at 10 33 30 AM (2)](https://github.com/user-attachments/assets/6682470e-d901-410c-9e97-848c3e93ccaa)
-**Profile screen**
+- **Profile screen**
 ![WhatsApp Image 2026-01-03 at 10 33 30 AM (1)](https://github.com/user-attachments/assets/f69089e3-9389-4b05-9918-62862bc78eeb)
 
 
